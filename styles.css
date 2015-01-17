@@ -1,1 +1,114 @@
+/**{
+	outline:2px solid orange;
+}*/
+a {
+color:#3399FF;
+font-weight:Normal; /*CSS字体效果 普通 可以改成bold粗体 如果去除此行那么默认是不显示下划线的*/
+text-decoration:none; /*CSS下划线效果：无下划线*/
+}
 
+a:hover {
+color:#4499EE;
+text-decoration:none; /*CSS下划线效果：无下划线*/
+border-bottom: 1px #0099CC dotted /*CSS加一个只有下边的框 边框为虚线*/
+}
+
+html{
+	height:150%;
+	width:100%;
+	margin: 0;
+}
+body {
+	height:100%;
+	width:100%;
+	margin: 0;
+}
+main {
+	height:100%;
+	width:100%;
+	margin:0;
+	padding: 0 5% 0 5%;
+	box-sizing:border-box;
+}
+.textArea {
+	width: 100%;
+	min-width: 600px;
+	height:30%;
+	overflow: hidden;
+	font: 1.2em sans-serif;
+	padding: 2%;
+	line-height:1.5;
+	box-sizing: border-box;
+}
+.motto {
+	float:right;
+}
+.logoArea{
+	width: 100%;
+	min-width: 600px;
+	height: 65%;
+}
+.logo {
+	width:25%;
+	height:25%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	float:left;
+	/*padding: 5px;*/
+	box-sizing:border-box;
+}
+.pic1{
+	background-image: url("Wiki.png");
+}
+.pic2{
+	background-image: url("135px-Wiktionary-logo-en.svg.png");
+}
+.pic3{
+	background-image: url("120px-Wikiquote-logo-en.png") ;
+}
+.pic4{
+	background-image: url("140px-Wikibooks-logo-en-noslogan.svg.png") ;
+}
+.pic5{
+	background-image: url("Wiki (1).png") ;
+}
+.pic6{
+	background-image: url("Wiki (2).png") ;
+}
+.pic7{
+	background-image: url("Wiki (3).png") ;
+}
+.pic8{
+	background-image: url("Wiki (4).png") ;
+}
+.pic9{
+	background-image: url("Wiki (5).png") ;
+}
+.pic10{
+	background-image: url("Wikidata-logo-en-135px.png") ;
+}
+.pic11{
+	background-image: url("Wiki-commons.png") ;
+}
+.pic12{
+	background-image: url("Wikivoyage-Logo-v3-en.svg.png") ;
+}
+.pic13{
+	background-image: url("Wiki (6).png") ;
+}
+.pic14{
+	background-image: url("Wiki (7).png") ;
+}
+.pic15{
+	background-image: url("Labslogo_thumb.png") ;
+}
+.pic16{
+	background-image: url("135px-Wikimedia_Foundation_RGB_logo_with_text.svg.png") ;
+}
+.foot {
+	min-width: 600px;
+	border-top: 1px solid gray;
+	text-align: center;
+	font-size: 16px;
+}
